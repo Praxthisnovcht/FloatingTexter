@@ -70,7 +70,7 @@ public function translateColors($symbol, $color){
 	//to improve code formatting a simple improve the code	  
 	public function onPlayerJoin(PlayerJoinEvent $event){
 		$point1 = $this->cfg->getAll()["point1"];
-		$point2 = $this->cfg->getAll()["point2"]
+		$point2 = $this->cfg->getAll()["point2"];
 		$text = $this->cfg($point1["text"]);
 		$text1 = $this->cfg($point1["text1"]);    
 		$text2 = $this->cfg($point1["text2"]);		
